@@ -8,9 +8,9 @@ if (session_status() == PHP_SESSION_NONE) {
 define('SITEURL', '/');
 
 // 🔥 TiDB Cloud Details
-define('LOCALHOST', 'YOUR_TIDB_HOST');   // example: gateway01.ap-south-1.prod.aws.tidbcloud.com
-define('DB_USERNAME', 'YOUR_TIDB_USERNAME'); // example: abc.root
-define('DB_PASSWORD', 'YOUR_TIDB_PASSWORD');
+define('LOCALHOST', 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com');   // example: gateway01.ap-south-1.prod.aws.tidbcloud.com
+define('DB_USERNAME', '364KHio1KorJLBB.root'); // example: abc.root
+define('DB_PASSWORD', 'RybDDsupDv7oUNi3');
 define('DB_NAME', 'cricket_store');
 
 // IMPORTANT: Port 4000 for TiDB
